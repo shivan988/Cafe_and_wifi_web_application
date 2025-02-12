@@ -1,0 +1,23 @@
+
+h1 {
+    text-align: center;
+}
+
+.circular-image {
+    width: 500px; /* Set a fixed width */
+    height: 500px; /* Set a fixed height */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.circular-image2 {
+    width: 250px; /* Set a fixed width */
+    height: 250px; /* Set a fixed height */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.spacing{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,24 @@
+{% include "header.html" %}
+
+<body>
+
+    <div class="container">
+
+        <hr>
+        <h1>Welcome to the application.</h1>
+        <br>
+        <div style="text-align:center">
+              <img src="static/images/cafe_wifi.jpeg" alt="cafe_wifi_img" class="circular-image" >
+        </div>
+        <hr>
+        <br>
+        <p style="text-align:center">"Welcome to the go-to platform for remote workers! Explore a collection of cafes
+            equipped with Wi-Fi, designed to enhance your productivity while enjoying a great cup of coffee.
+            Share your top picks and help others find their ideal workspace!"</p>
+        <div style="text-align:center" class="spacing">
+            <a href="{{url_for('list_of_cafes')}}" class="btn btn-outline-warning">See Cafes</a>
+        </div>
+    </div>
+
+{% include "footer.html" %}
+
