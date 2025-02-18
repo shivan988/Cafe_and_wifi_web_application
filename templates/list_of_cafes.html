@@ -19,7 +19,7 @@
       <tbody>
       {% for cafe in cafes %}
         <tr>
-          <th scope="row">{{cafe.id}}</th>
+          <th scope="row">{{loop.index}}</th>
             <td>{{cafe.cafe_name|capitalize}}</td>
           <td>{{cafe.coffee}}</td>
           <td>{{cafe.wifi}}</td>
